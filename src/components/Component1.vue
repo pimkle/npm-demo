@@ -13,7 +13,7 @@ import part1 from './parts/part1.vue';
 import part2 from './parts/part2.vue';
 
 export default {
-  name: 'Comp1',
+  name: 'Component1',
   components: {
     part1,
     part2,

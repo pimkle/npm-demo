@@ -11,7 +11,7 @@
     "type": "git",
     "url": "https://github.com/pimkle/npm-demo.git"
   },
-  "main": "./dist/component.common.js",
+  "main": "./dist/Component1.common.js",
   "files": [
     "dist"
   ],
@@ -45,7 +45,9 @@
       "plugin:vue/essential",
       "@vue/airbnb"
     ],
-    "rules": {},
+    "rules": {
+      "vue/require-component-is": "off"
+    },
     "parserOptions": {
       "parser": "babel-eslint"
     }

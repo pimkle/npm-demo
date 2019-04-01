@@ -1,5 +1,5 @@
-import component from './component.vue';
+import Component1 from './Component1.vue';
 
-component.install = Vue => Vue.component(component.name, component);
+Component1.install = Vue => Vue.component(Component1.name, Component1);
 
-export default component;
+export default Component1;
