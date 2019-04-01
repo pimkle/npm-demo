@@ -1,11 +1,26 @@
 {
-  "name": "vue-cli",
+  "name": "@demo/tester",
   "version": "0.1.0",
+  "description": "DEMO 打包项目",
+  "keywords": [
+    "tester",
+    "demo"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@git.xxx.com:xxx/npm-demo.git"
+  },
+  "main": "./dist/component.common.js",
+  "files": [
+    "dist"
+  ],
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "build-bundle": "vue-cli-service build --target lib --name component ./src/components/index.js"
   },
   "dependencies": {
     "core-js": "^2.6.5",
